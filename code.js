@@ -1,7 +1,7 @@
 let time=document.querySelector("#time") 
 let but=document.querySelector("#stopwatch")
 let alarm=document.querySelector("#alarm")
-let func=document.querySelector("#func")a
+let func=document.querySelector("#func")
 let area=document.querySelector("#area")
 let x,clocktime
 let hours=0,minutes=0,seconds=0
