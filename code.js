@@ -60,7 +60,7 @@ but.addEventListener("click",()=>{
         stopwatch()
         but.setAttribute("id","stop")
         but.textContent="STOP"
-
+        but.textContent = "START";
     }
 
     else if (but.getAttribute("id")==="cancel") {
