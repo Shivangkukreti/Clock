@@ -53,7 +53,7 @@ but.addEventListener("click",()=>{
         
         clearInterval(x);
         but.setAttribute("id", "start");
-        but.textContent = "START";
+        
     }
 
     else if (but.getAttribute("id")==="start"){
