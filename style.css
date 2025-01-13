@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(8292.jpg);
+    background-size: cover;
+}
+
+#title{
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 5px 30px 1px black;
+    text-shadow: 2px 2px 4px black;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+
+}
+
+#main{
+    height: 200px;
+    width: 600px;
+    background-color: rgb(255, 255, 255,0.6);
+    border-radius: 40px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 30px 1px white;
+}
+
+#time{
+  font-size: 100px;
+  color: aliceblue;
+  text-shadow: 2px 2px 4px black;
+}
+
+#func{
+    position: relative;
+    top: 300px;
+}
+
+#stopwatch , #stop , #alarm , #clock , #save , #cancel ,#start{
+    background-color: rgb(255, 255, 255,0.4);
+    color: aliceblue;
+    border-radius: 10px;
+    border: none ;
+    height: 30px;
+    width: 100px;
+    box-shadow: 0px 5px 30px 10px rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px black;
+    margin: 15px;
+
+  }
+
+  #stopwatch:active , #stop:active , #alarm:active , #clock:active , #save:active , #cancel:active , #start:active{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 30px 10px rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  }
+  
+
+  .inp{
+    background-color: rgb(255, 255, 255,0.7);
+    box-shadow: 0px 5px 30px 10px rgb(0, 0, 0);
+    border: none;
+    height: 100px;
+    border-radius: 40px;
+    
+  }
+
+
+#area{
+    background-color: rgb(255, 255, 255,0.7);
+    box-shadow: 0px 5px 30px 1px white;
+    border-radius: 10px;
+    overflow-y: scroll;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    top:100px;
+}
+
+#func{
+    position: relative;
+    top: 180px;
+}
+  
+.effect{
+  background-color: rgb(0, 0, 0,0.2);
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  box-shadow: 0px 5px 1000px 1px rgb(0, 0, 0);
+  text-align: center;
+  margin: 5px;
+  border-radius: 30px;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px; 
+  height: 12px; 
+}
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
