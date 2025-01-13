@@ -43,7 +43,7 @@ but.addEventListener("click",()=>{
     if (but.getAttribute("id")==="stopwatch") {
         clearInterval(clocktime)
         but.setAttribute("id","stop")
-        alarm.setAttribute("id","clock")
+        alarm.setAttribute("id","clock")aaaa
         but.textContent="STOP"
         alarm.textContent="CLOCK"
         stopwatch()
