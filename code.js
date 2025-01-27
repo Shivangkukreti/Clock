@@ -52,6 +52,7 @@ but.addEventListener("click",()=>{
     else if (but.getAttribute("id")==="stop") {
         
         clearInterval(x);
+        but.textContent = "START"
         but.setAttribute("id", "start");
         
     }
@@ -60,7 +61,7 @@ but.addEventListener("click",()=>{
         stopwatch()
         but.setAttribute("id","stop")
         but.textContent="STOP"
-        but.textContent = "START";
+        ;
     }
 
     else if (but.getAttribute("id")==="cancel") {
